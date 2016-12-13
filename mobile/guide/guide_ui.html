@@ -1,0 +1,193 @@
+ <!doctype html>
+<html lang="ko">
+<head>
+<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
+<meta charset="UTF-8">
+<meta name="Author" content="">
+<meta name="Keywords" content="">
+<meta name="Description" content="">
+<title>UI Style guide - Component</title>
+<link rel="stylesheet" href="../css/default.css" media="screen" />
+<link rel="stylesheet" href="../css/jquery-ui.css" media="screen" />
+
+<script type="text/javascript" src="../js/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="../js/jquery-ui.js"></script>
+<style>
+	.ui_guide {padding:0 10px 30px;}
+	.ui_guide .h1_tit {padding-top:10px;font-size:24px;}
+	.ui_guide .h2_tit {margin-top:30px;font-size:18px;}
+	.ui_guide .h3_tit {margin:20px 0 10px;font-size:14px;}
+	.ui_guide .h4_tit {margin:10px 0 5px;}
+	.ui_guide .h4_tit,
+	.ui_guide .tit_desc {font-size:14px;font-weight:normal;}
+	.ui_guide .btn_checkbox {margin-top:10px;}
+	.ui_guide hr {margin-top:30px;}
+</style>
+</head>
+<body class="bg_color_white">
+<!-- wrap -->
+<div class="wrap main_type">
+	<!-- header -->
+	<div class="header">
+		<nav class="header_nav">
+			<ul class="top_nav">
+				<li class="menu home on"><a href="#" class="link"><i class="ico">홈</i></a></li>
+				<li class="menu charging"><a href="#" class="link"><i class="ico">충전소</i></a></li>
+				<li class="menu mall"><a href="#" class="link"><i class="ico">상점</i></a></li>
+				<li class="menu coupon"><a href="#" class="link"><i class="ico">쿠폰함</i></a></li>
+				<li class="menu more"><a href="#" class="link"><i class="ico">더보기</i></a></li>
+			</ul>
+		</nav>
+	</div>
+	<!-- //header -->
+	<!-- content -->
+	<div class="content ui_guide">
+		<h1 class="h1_tit">UI Style guide - Component</h1>
+		
+		<hr>
+		<h2 class="h2_tit">[ Button Type ]</h2>
+		<h3 class="h3_tit">type1 <span class="tit_desc">.btn_top.change, .btn_top.gift</span></h3>
+		<a href="#" class="btn btn_top change"><span class="txt">변경</span></a>
+		<a href="#" class="btn btn_top gift"><span class="txt">선물하기</span></a>
+		
+		<h3 class="h3_tit">type2</h3>
+		<h4 class="h4_tit">1 .btn.yellow.btn_round.save</h4>
+		<button type="button" class="btn yellow btn_round save">저장하기</button>
+		
+		<h4 class="h4_tit">2 .btn.black.btn_round</h4>
+		<a href="#" class="btn black btn_round">회원가입</a>
+		
+		<h4 class="h4_tit">3 .btn.scarlet.btn_round</h4>
+		<a href="#" class="btn scarlet btn_round sl_google">Google 계정으로 가입</a>
+		
+		<h4 class="h4_tit">4 .btn.cyan.btn_round</h4>
+		<a href="#" class="btn cyan btn_round sl_facebook">Facebook 계정으로 가입</a>
+		
+		<h4 class="h4_tit">5 .btn.gray.btn_round</h4>
+		<a href="#" class="btn gray btn_round">로그인</a>
+		
+		<h4 class="h4_tit">6 .btn.red.btn_round</h4>
+		<a href="#" class="btn red btn_round">서비스 시작하기</a>
+		
+		<h3 class="h3_tit">type3 <span class="tit_desc">.btn.btn_more_arr</span></h3>
+		<a href="#" class="btn btn_more_arr">더보기</a>
+		
+		<h3 class="h3_tit">type4 <span class="tit_desc">.btn.btn_cash_charging</span></h3>
+		<a href="#" class="btn btn_cash_charging"><i class="ico">캐시충전</i></a>
+		
+		<h3 class="h3_tit">type5 <span class="tit_desc">.btn btn_top_prev, .btn btn_top_close</span></h3>
+		<a href="#" class="btn btn_top_prev"><i class="ico">이전</i></a>
+		<a href="#" class="btn btn_top_close"><span class="ico">닫기</span></a>
+		
+		<h3 class="h3_tit">type6 <span class="tit_desc">.btn_square_group > .btn_square</span></h3>
+		<div class="btn_square_group">
+			<a href="#" class="btn btn_square lft">남<span class="desc">male</span></a>							
+			<a href="#" class="btn btn_square rgt">여<span class="desc">female</span></a>							
+		</div>
+		
+		<h3 class="h3_tit">type7 <span class="tit_desc">.btn_round_small.dark_gray </span></h3>
+		<a href="#" class="btn btn_round_small dark_gray setting_go">설정</a>
+		
+		<h3 class="h3_tit">type8 <span class="tit_desc">.btn_btm_more </span></h3>
+		<a href="#" class="btn btn_btm_more"><i class="ico">더보기</i></a>
+		
+		<h3 class="h3_tit">type9 <span class="tit_desc">.btn_sl_group </span></h3>
+		<div class="btn_sl_group">
+			<ul class="list">
+				<li class="col sl_kakao"><a href="#" class="btn"><i class="ico"></i><br><span class="txt">카카오톡</span></a></li>
+				<li class="col sl_line"><a href="#" class="btn"><i class="ico"></i><br><span class="txt">라인</span></a></li>
+				<li class="col sl_facebook"><a href="#" class="btn"><i class="ico"></i><br><span class="txt">페이스북</span></a></li>
+				<li class="col sl_sms"><a href="#" class="btn"><i class="ico"></i><br><span class="txt">문자</span></a></li>
+				<li class="col sl_email_copy"><a href="#" class="btn"><i class="ico"></i><br><span class="txt">이메일</span></a></li>
+			</ul>
+		</div>
+		
+		<h3 class="h3_tit">type10 <span class="tit_desc">.btn_tip_toggle </span></h3>
+		<a href="#" class="btn btn_tip_toggle on">정책 안내</a>
+		
+		<hr>
+		<h2 class="h2_tit">[ Radio Type ]</h2>
+		<h3 class="h3_tit">type1 <span class="tit_desc">.radio_yellow_type</span></h3>
+		<div class="raido_yellow_group">
+			<input class="radio_yellow_type" type="radio" id="radio1" name="user_marry" checked><label for="radio1">미혼</label>
+			<input class="radio_yellow_type" type="radio" id="radio2" name="user_marry"><label for="radio2">기혼</label>
+		</div>
+		
+		<hr>
+		<h2 class="h2_tit">[ checkbox Type ]</h2>
+		<h3 class="h3_tit">type1 <span class="tit_desc">.btn_checkbox .ui_check</span></h3>
+		<div class="btn_checkbox">
+			<input id="checkbox1" class="ui_check" type="checkbox">
+			<label for="checkbox1" class="label_check">동의 합니다</label>
+		</div>
+		<div class="btn_checkbox on">
+			<input id="checkbox2" class="ui_check" type="checkbox" checked>
+			<label for="checkbox2" class="label_check">동의 합니다</label>
+		</div>
+		
+		<hr>
+		<h2 class="h2_tit">[ Input Type ]</h2>
+		<h3 class="h3_tit">type1 <span class="tit_desc">.input_line_type</span></h3>
+		<div class="input_line_type">
+			<input type="text" name="" value="" placeholder="아이디 입력" title="아이디 입력">
+		</div>
+		
+		<hr>
+		<h2 class="h2_tit">[ Select Type ]</h2>
+		<h3 class="h3_tit">type1 <span class="tit_desc">.select_line_type</span></h3>
+		<div class="select_line_type">
+			<select name="" id="" dir="rtl">
+				<option value="">서울특별시</option>
+				<option value="">부산광역시</option>
+				<option value="">인천광역시</option>
+			</select>
+		</div>
+		
+		<h3 class="h3_tit">type2 <span class="tit_desc">.select_sorting_type</span></h3>
+		<div class="select_sorting_type">
+			<select name="" id="">
+				<option value="">최신순</option>
+				<option value="">이름순</option>
+				<option value="">마감임박순</option>
+			</select>
+		</div>
+		
+		<hr>
+		<h2 class="h2_tit">[ Switch btn ]</h2>
+		<h3 class="h3_tit">type1 <span class="tit_desc">.btn_switch > .slider.round</span></h3>
+		<label class="btn_switch">
+		  <input type="checkbox">
+		  <div class="slider round"></div>
+		</label>
+		<label class="btn_switch">
+		  <input type="checkbox" checked>
+		  <div class="slider round"></div>
+		</label>
+		
+		<hr>
+		<h2 class="h2_tit">[ icon ]</h2>
+		<h3 class="h3_tit">type1 <span class="tit_desc">image</span></h3>
+		<img src="../images/ico_user_id.png" width="14px" height="14px" alt=""> <span class="tit_desc">ico_user_id.png, 14px 14px</span><br>
+		<img src="../images/ico_money1.png" width="16px" alt="16px"> <span class="tit_desc">ico_money1.png, 16px 16px</span><br>
+		<img src="../images/ico_money1_yellow.png" width="16px" alt="16px"> <span class="tit_desc">ico_money1_yellow.png, 16px 16px</span><br>
+		<img src="../images/ico_money1_yellow2.png" width="16px" alt="16px"> <span class="tit_desc">ico_money1_yellow2.png, 16px 16px</span><br>
+		<img src="../images/ico_money1_gray.png" width="16px" alt="16px"> <span class="tit_desc">ico_money1_gray.png, 16px 16px</span><br>
+		<img src="../images/ico_money1_orange.png" width="16px" height="16px"  alt=""> <span class="tit_desc">ico_money1_orange.png, 16px 16px</span><br>
+		<img src="../images/ico_money2.png" width="13px" height="13px" alt=""> <span class="tit_desc">ico_money2.png, 13px 13px</span><br>
+		<img src="../images/ico_money2_gray.png" width="13px" height="13px" alt=""> <span class="tit_desc">ico_money2_gray.png, 13px 13px</span><br>
+		<img src="../images/ico_money3.png" width="20px" alt="20px"> <span class="tit_desc">ico_money3.png, 20px 20px</span><br>
+		<img src="../images/arr_list_link.png" width="8px" alt="14px"> <span class="tit_desc">arr_list_link.png, 8px 14px</span>
+		
+		<h3 class="h3_tit">type2 <span class="tit_desc">.ico_round</span></h3>
+		<i class="ico_round yellow">설치형</i><br>
+		<i class="ico_round blue">실행형</i><br>
+		<i class="ico_round gray">시청형</i>
+	</div>
+	<!-- //content -->
+	<a href="#" class="btnTop"><span  class="txt">top</span></a>
+</div>
+<!-- //wrap -->
+<script src="../js/swiper.jquery.min.js"></script>
+<script type="text/javascript" src="../js/ui-common.js"></script>
+</body>
+</html>

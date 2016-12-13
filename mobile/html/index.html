@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="http://220.117.179.197/resources/css/default.css" media="screen" />
+<script type="text/javascript" src='http://220.117.179.197/resources/js/jquery-1.11.2.min.js' ></script>
+<script type="text/javascript">
+	
+	function MemberValidation(jsonStr){
+		var jsonObj = JSON.parse(jsonStr);
+		var result = jsonObj.MemberValidation;
+		var act_url = "/CATCHAPP_MW/member";
+		if(result != undefined){
+			for(var i=0;i<result.length;i++){
+				$("#vchUSER_ID").val(result[i].id);
+				$("#chLOGIN_TYPE").val(result[i].login_type);
+				$("#vchSerialNo").val(result[i].IMEI);
+				$("#VERSION_INFO").val(result[i].version);
+			}
+			
+			if($("#vchUSER_ID").val() != "" && $("#chLOGIN_TYPE").val() != "" && $("#vchSerialNo").val() != ""){
+				$("#LOGIN_AUTO").val("Y");
+				act_url = "/CATCHAPP_MW/login/proc";
+			}
+		}
+		//버전 체크
+		//checkAppVersion(act_url);
+		$("#frm").attr({action : act_url}).submit();
+	}
+	
+	function checkAppVersion(act_url){
+		var _url = '/CATCHAPP_MW/comm/json/checkVersion';
+		var _params = "version=" + $("#VERSION_INFO").val();
+		$.ajax({
+	  	    method: "get",
+	  	    dataType: "json",
+	  	    url: _url,
+	  	    data: _params,   
+	  	    success: function(resp, status, jqXHR) {
+	  	    	if(resp.version == 0){
+	  	    		alert("최신버전으로 업데이트 하시기 바랍니다.");
+	  	    		window.android.requestSettingChange(JSON.stringify({"ADSetting":[{"number": 7, "value":1}]}));
+	  	    	}else{
+	  	    		$("#frm").attr({action : act_url}).submit();
+	  	    	}
+	  	    },error: function(jqXHR, textStatus, errorThrown) {
+	  	        alert("통신상태가 원활하지 않습니다.");
+	  	    }
+	  	});
+	}
+	
+ 	$(document).ready(function(){
+ 		//MemberValidation('{"MemberValidation": [{"id": "zebal82", "login_type": "1", "IMEI": "123", "version": "0.0.18"}]}');
+ 		//MemberValidation('{"MemberValidation": [{"id": "", "login_type": "", "IMEI": "123123123123"}]}');
+	});
+ 	
+</script>
+</head>
+<body>
+<form id="frm" name="frm" method="post">
+	<input type="hidden" name="vchUSER_ID" id="vchUSER_ID" value=""/>
+	<input type="hidden" name=chLOGIN_TYPE id="chLOGIN_TYPE" value=""/>
+	<input type="hidden" name="vchSerialNo" id="vchSerialNo" value=""/>
+	<input type="hidden" name="LOGIN_AUTO" id="LOGIN_AUTO" value="N"/>
+	<input type="hidden" id="VERSION_INFO" value="N"/>
+</form>
+<img alt="index" src="http://220.117.179.197/resources/images/index.jpg" style="width: 100%;height: 100%;"/>
+</body>
+</html>

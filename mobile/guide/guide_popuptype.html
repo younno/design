@@ -1,0 +1,101 @@
+ <!doctype html>
+<html lang="ko">
+<head>
+<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
+<meta charset="UTF-8">
+<meta name="Author" content="">
+<meta name="Keywords" content="">
+<meta name="Description" content="">
+<title>popup type</title>
+<link rel="stylesheet" href="../css/default.css" media="screen" />
+<script type="text/javascript" src="../js/jquery-1.11.2.min.js"></script>
+</head>
+<body class="bg_color_white">
+<!-- wrap -->
+<div class="wrap popup_type">
+	<!-- header -->
+	<div class="header">
+		<div class="tit_head">
+			<h1 class="tit">내 정보 변경</h1>
+			<a href="#" class="btn btn_top_close"><span class="ico">닫기</span></a>
+		</div>
+	</div>
+	<!-- //header -->
+	<!-- content -->
+	<div class="content more_myinfo_modify">
+		<div class="top_cont">
+			<p class="date">가입일 : 2016년 5월 31일</p>
+		</div>
+		<form>
+		<fieldset>
+		<legend>내 정보 변경</legend>
+		<div class="list_type">			
+			<dl class="row user_id">
+				<dt class="col_lft">아이디</dt>
+				<dd class="col_rgt">
+					<div class="input_line_type">
+						<input type="text" name="user_id" value="ENDERS" title="아이디" readonly>
+					</div>
+				</dd>
+			</dl>
+			<dl class="row user_email">
+				<dt class="col_lft">이메일</dt>
+				<dd class="col_rgt">
+					<div class="input_line_type">
+						<input type="text" name="user_email" value="ENDERS119@naver.com" title="이메일" readonly>
+					</div>
+				</dd>
+			</dl>
+			<dl class="row user_gender">
+				<dt class="col_lft">성별</dt>
+				<dd class="col_rgt">
+					<div class="input_line_type">
+						<input type="text" name="user_gende" value="남" title="성별" readonly>
+					</div>
+				</dd>
+			</dl>
+			<dl class="row user_birth">
+				<dt class="col_lft">출생년도</dt>
+				<dd class="col_rgt">
+					<div class="input_line_type">
+						<input type="text" name="user_birth" value="1980년" title="출생년도" readonly>
+					</div>
+				</dd>
+			</dl>
+			<dl class="row user_marry">
+				<dt class="col_lft">결혼여부</dt>
+				<dd class="col_rgt">
+					<div class="raido_yellow_group">
+						<input class="radio_yellow_type" type="radio" id="radio1" name="user_marry" checked><label for="radio1">미혼</label>
+						<input class="radio_yellow_type" type="radio" id="radio2" name="user_marry"><label for="radio2">기혼</label>
+					</div>
+				</dd>
+			</dl>
+			<dl class="row user_address">
+				<dt class="col_lft">지역</dt>
+				<dd class="col_rgt">
+					<div class="select_line_type">
+						<select name="user_address" id="select" dir="rtl" title="지역">
+							<option value="">서울특별시</option>
+							<option value="">부산광역시</option>
+							<option value="">인천광역시</option>
+						</select>
+					</div>
+				</dd>
+			</dl>
+		</div>
+		<div class="btn_wrap btm_fixed">
+			<div class="inner">
+				<button type="button" class="btn yellow btn_round save">저장하기</button>
+			</div>
+		</div>
+		</fieldset>
+		</form>
+	</div>
+	<!-- //content -->
+	<a href="#" class="btnTop"><span  class="txt">top</span></a>
+</div>
+<!-- //wrap -->
+<script type="text/javascript" src="../js/ui-common.js"></script>
+</body>
+</html>

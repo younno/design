@@ -1,0 +1,121 @@
+ <!doctype html>
+<html lang="ko">
+<head>
+<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
+<meta charset="UTF-8">
+<meta name="Author" content="">
+<meta name="Keywords" content="">
+<meta name="Description" content="">
+<title>서비스가이드</title>
+<link rel="stylesheet" href="../css/default.css" media="screen" />
+<script type="text/javascript" src="../js/jquery-1.11.2.min.js"></script>
+</head>
+<body class="bg_color_yellow">
+<!-- wrap -->
+<div class="wrap main_type2">
+	<!-- content -->
+	<div class="content home_service_guide">
+		<div class="tit blind">
+			<h1>CATCHAPP</h1>
+			<h2>서비스가이드</h2>
+		</div>
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<div class="section num1">
+						<div class="inner">
+							<h3 class="tit">전화걸때</h3>
+							<p class="txt">통화 연결 전 광고 CM 을 듣고 리워드를 적립합니다.</p>
+							<div class="visual_area">
+								<p class="blind">설명 이미지1</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="section num2">
+						<div class="inner">
+							<h3 class="tit">통화 중</h3>
+							<p class="txt">통화 중 이미지 광고를 보고 리워드를 적립합니다.</p>
+							<div class="visual_area">
+								<p class="blind">설명 이미지2</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="section num3">
+						<div class="inner">
+							<h3 class="tit">통화 종료</h3>
+							<p class="txt">통화 직후 선택에 따라 광고에 참여하고 보상 리워드를 적립합니다.</p>
+							<div class="visual_area">
+								<p class="blind">설명 이미지3</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="section num4">
+						<div class="inner">
+							<h3 class="tit">앱에서 적립</h3>
+							<p class="txt">통화하지 않을 때는 케찹 실행 후 다양한 추가 보너스 프로그램에 참여할 수 있습니다.</p>
+							<div class="visual_area">
+								<p class="blind">설명 이미지4</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="section num5">
+						<div class="inner">
+							<h3 class="tit">누적된 포인트 확인</h3>
+							<p class="txt">틈틈이 쌓이는 포인트를 즐겁게 확인하고 원하는 제품 구매에 이용할 수 있습니다.</p>
+							<div class="visual_area">
+								<p class="blind">설명 이미지5</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="section num6">
+						<div class="inner">
+							<h3 class="tit">유연한 설정</h3>
+							<a href="#" class="btn_close">닫기</a>
+							<p class="txt">사용 패턴에 따라 다양한 세팅이 가능합니다.</p>
+							<div class="visual_area">
+								<p class="blind">설명 이미지5</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="swiper-pagination"></div>
+			<div class="swiper-button-prev"></div>
+			<div class="swiper-button-next"></div>
+		</div>
+	</div>
+	<!-- //content -->
+	<a href="#" class="btnTop"><span  class="txt">top</span></a>
+</div>
+<!-- //wrap -->
+<script type="text/javascript" src="../js/ui-common.js"></script>
+<script src="../js/swiper.jquery.min.js"></script>
+<script>
+(function(global,$){
+	'use strict';
+	var swiper = new Swiper('.swiper-container', {
+	    pagination: '.swiper-pagination',
+	    paginationClickable: true,
+	    nextButton: '.swiper-button-next',
+	    prevButton: '.swiper-button-prev'
+	});
+	
+	(function sectionHeight () {
+		var $guide_section = $(' .home_service_guide .section '),
+		$window_height = $(window).height();		
+		$guide_section.height($window_height);
+	})();	
+})(this,this.jQuery);
+</script>
+</body>
+</html>
