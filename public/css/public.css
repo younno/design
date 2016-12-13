@@ -212,7 +212,7 @@ input {-webkit-appearance:none;border-radius:0;line-height:1.5;}
 .home .section .txt4 {font-size:14px;font-weight:normal;color:#333;line-height:22px;}
 .home .section .txt_area .txt_list {}
 .home .section .txt_area .txt2 {}
-.line_type {margin:0 auto;width:80%;height:1px;background-color:#fde5ae;border-top:1px solid #f2a325;}
+.line_type {margin:0 auto;width:92%;height:1px;background-color:#fde5ae;border-top:1px solid #f2a325;}
 .home .section.story {background-color:#f8c753;}
 .home .section.story>.inner {padding:44px 0 40px;}
 .home .section.story .tit_area .tit {font-weight:bold;color:#1f1f1f;}
@@ -289,7 +289,6 @@ input {-webkit-appearance:none;border-radius:0;line-height:1.5;}
 .view_wrap .row .col_lft {float:left;width:60%;height:40px;line-height:40px;text-indent:15px;font-weight:bold;}
 .view_wrap .row .col_rgt {margin-left:60%;height:40px;line-height:40px;background-color:#fff;border:1px solid #d4d4d4;text-align:center;}
 .view_wrap .editor_cont {padding:20px 15px;border-bottom:1px solid #f8c753;font-size:14px;color:#666;line-height:24px;}
-.line_type {width:100%;}
 
 
 @media all and (min-width:1024px) {
