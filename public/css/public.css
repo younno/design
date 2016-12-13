@@ -84,7 +84,7 @@ body {-webkit-text-size-adjust:none;text-size-adjust:none;letter-spacing:-1px;}
 .btn_gp_wrap .inner {padding:0 15px;}
 .btn_googleplay {display:block;width:100%;height:51px;padding-top:7px;background-color:#000;border:2px solid #a6a6a6;border-radius:10px;text-align:center;line-height:62px;}
 .btn_googleplay span {display:inline-block;width:196px;height:43px;background:url(../images/btn_googleplay_mobile.png) 0 0 no-repeat;background-size:100% 100%;text-indent:-9999px;}
-.btn_util_wrap {position:absolute;top:14px;right:0;z-index:120;width:100%;text-align:right;}
+.btn_util_wrap {position:fixed;top:14px;right:0;z-index:120;width:100%;text-align:right;}
 .btn_util_wrap .btn_util {display:inline-block;width:23px;height:23px;margin-right:15px;background:#f8c753 url(../images/ico_btn_util.png) 0 0 no-repeat;background-size:46px 23px;border:0 none;text-indent:-9999px;text-align:left;}
 .btn_util_wrap .btn_util.on {background-image:url(../images/ico_btn_util.png);background-position:-23px 0;}
 .btn_util_wrap .util_list {display:none;position:absolute;top:36px;left:0;width:100%;border-bottom:1px solid #16140f;text-align:center;}
@@ -331,7 +331,7 @@ body {font-family:'NanumGothic', '나눔고딕', 'Nanum Gothic', 'Apple SD Gothi
 .btn_gp_wrap .inner {padding:0;}
 .btn_googleplay {width:110px;height:26px;padding-top:4px;border:1px solid #000;border-radius:4px;text-align:center;line-height:32px;}
 .btn_googleplay span {*display:block;zoom:1;width:95px;height:23px;background:url(../images/btn_googleplay.png) 0 0 no-repeat;}
-.btn_util_wrap {position:absolute;top:8px;right:40px;z-index:120;width:inherit;text-align:left;}
+.btn_util_wrap {position:fixed;top:8px;right:40px;z-index:120;width:inherit;text-align:left;}
 .btn_util_wrap .btn_util {display:block;width:214px;height:31px;margin-right:0;padding-left:10px;background:#fff url(../images/arr_btn_util.png) 195px 2px no-repeat;border:1px solid #ecac15;font-size:12px;font-family:'Malgun Gothic', '맑은 고딕', 'dotum', '돋움';color:#333;text-align:left;line-height:33px;text-indent:inherit;}
 .btn_util_wrap .btn_util.on {background-image:url(../images/arr_btn_util_on.png);background-position:195px 2px;}
 .btn_util_wrap .util_list {display:none;position:static;width:inherit;margin-top:2px;padding:5px 20px;background-color:#fff;border:1px solid #ecac15;}
