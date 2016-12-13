@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0,user-scalable=yes" >
+    <title>publishing html list</title>
+    <style type="text/css">
+        /* reset */
+        body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,textarea,button {margin:0;padding:0}
+        fieldset,img {border:0 none}
+        /*dl,ul,ol,menu,li {list-style:none}*/
+        blockquote, q {quotes: none}
+        blockquote:before, blockquote:after,q:before, q:after {content:'';content:none}
+        input,select,textarea,button {vertical-align:middle}
+        button {border:0 none;background-color:transparent;cursor:pointer}
+        body {background:#fff}
+        body,th,td,input,select,textarea,button {font-size:12px;line-height:1.5;font-family:'돋움',dotum,sans-serif;color:#333}
+        a {color:#333;text-decoration:none}
+        a:active, a:hover {text-decoration:underline}
+        address,caption,cite,code,dfn,em,var,i {font-style:normal;font-weight:normal}
+
+        /* layout-style */
+        body {padding:10px;background-color:#eee;}
+        #wrap {padding:10px;border:1px solid #ddd;background-color:#fff;}
+        .h1_tit {font-size:16px;font-family:Helvetica;}
+        .h2_tit,
+        .guide_tit{font-size:16px;font-family:'나눔고딕',nanumgothic,'돋움',dotum;font-weight:bold;color:#000;}
+        .pj_name h1 {font-size:24px;font-family:'나눔고딕',nanumgothic,'돋움',dotum;font-weight:bold;color:#000;letter-spacing:-1px;}
+        .pj_name .link {float:left;font-size:12px;font-family:Helvetica;background-color:#E6E6E6;color:#333;}
+        .pj_name .owner {float:right}
+        .pj_name:after {content:'';clear:both;display:block;}
+        .guide_tit {margin-top:20px;}
+        .link {display:inline-block;padding:0 3px;margin:3px 3px 3px 0;background-color:#999;color:#fff;}
+        .sub {margin-left:20px;}
+        .sub li {margin-bottom:13px;}
+		.sub_3depth {margin-left:30px;}
+        .issue {margin-top:15px;}
+        .txt_box {margin-top:5px;padding:10px;border:1px solid #ddd;background-color:#fff;}
+        .ico_new {background-color:#54c146;border-radius:3px;padding:0 1px;letter-spacing:-1px;color:#fff;}
+        hr {margin:15px 0;}
+        .copyright {margin-top:15px;font-size:11px;}
+        i {font-size:11px;color:#999;}
+        del {color:#fe91a1;}
+		.ico_wrap {margin-top:10px;}
+		.ico_wrap .ico {color:#fff;padding:3px;margin-right:3px;}
+		.ing {background-color:#5d9b1a;}
+		.done {background-color:#1f78bd;}
+		.finish {background-color:#4e4e4e;}
+		.edit {background-color:#ff2d2d;}
+    </style>
+</head>
+
+<body>
+<div id="wrap">
+    <div class="pj_name">
+        <h1>CATCHAPP 퍼블리싱 리스트</h1>
+        <a href="http://220.117.179.197/resources/filelist.html" target="_blank" class="link">http://220.117.179.197/resources/filelist.html</a>
+        <span class="owner">- 작업자 : 한승미D</span>
+    </div>
+	<div class="ico_wrap">
+		<span class="ico ing">진행중</span>
+		<span class="ico done">작업완료</span>
+		<span class="ico finish">검수완료</span>
+		<span class="ico edit">수정</span>
+	</div>
+    <hr>
+
+	<h2 class="h2_tit"># UI가이드</h2>
+    <ol class="sub">
+    	<li>
+    		<a href="guide/guide_ui.html" class="link ing">guide - Component</a>
+            <span>guide_ui.html</span>
+    	</li>
+        <li>
+            <a href="guide/guide_maintype.html" class="link ing">layout - main type</a>
+            <span>guide_maintype.html</span>
+        </li>
+		<li>
+            <a href="guide/guide_embedtype.html" class="link ing">layout - embedded type</a>
+            <span>guide_embedtype.html</span>
+        </li>
+		<li>
+            <a href="guide/guide_popuptype.html" class="link ing">layout - popup type</a>
+            <span>guide_popuptype.html</span>
+        </li>
+        <li>
+            <a href="guide/guide_layertype.html" class="link ing">layout - layer type</a>
+            <span>guide_layertype.html</span>
+        </li>
+	</ol>
+	<hr>
+	
+	<h2 class="h2_tit"># Public Web</h2>
+    <ol class="sub">
+        <li>
+            <a href="public/PU_W01_010.html" class="link done">홈</a>
+            <span>PU_W01_010.html</span>
+        </li>
+		<li>
+            <a href="public/PU_W01_020.html" class="link done">FAQ 리스트</a>
+            <span>PU_W01_020.html</span>
+        </li>
+		<li>
+            <a href="public/PU_W01_021.html" class="link done">FAQ 내용보기</a>
+            <span>PU_W01_021.html</span>
+        </li>
+		<li>
+            <a href="public/PU_W01_030.html" class="link done">Contact/광고신청</a>
+            <span>PU_W01_030.html</span>
+        </li>
+		<li>
+            <a href="public/PU_W01_040.html" class="link done">서비스 이용약관</a>
+            <span>PU_W01_040.html</span>
+        </li>
+		<li>
+            <a href="public/PU_W01_050.html" class="link done">개인정보 취급방침</a>
+            <span>PU_W01_050.html</span>
+        </li>
+	</ol>
+	<hr>
+	
+    <h2 class="h2_tit">01 홈</h2>
+    <ol class="sub">
+        <li>
+            <a href="html/US_A01_010.html" class="link done">홈</a>
+            <span>US_A01_010.html</span>
+            <del><i>&lt;!-- 완료: 1103 --&gt;</i></del>
+            <i>&lt;!-- 수정: 1103 --&gt;</i><br>
+        </li>
+		<li>
+            <a href="html/US_A01_020.html" class="link done">적립내역</a>
+            <span>US_A01_020.html</span>
+			<ul class="sub_3depth">
+				<li>
+					<a href="html/US_A01_021.html" class="link done">SOUND 적립내역</a>
+					<span>US_A01_021.html</span>
+				</li>
+				<li>
+					<a href="html/US_A01_022.html" class="link done">REACTION 적립내역</a>
+					<span>US_A01_022.html</span>
+				</li>
+				<li>
+					<a href="html/US_A01_023.html" class="link done">INVITE 적립내역</a>
+					<span>US_A01_023.html</span>
+				</li>
+				<li>
+					<a href="html/US_A01_024.html" class="link done">EVENT 적립내역</a>
+					<span>US_A01_024.html</span>
+				</li>
+			</ul>
+		</li>
+		<li>
+            <a href="html/US_A01_030.html" class="link done">적립금 사용내역</a>
+            <span>US_A01_030.html</span>
+        </li>
+		<li>
+            <a href="html/US_A01_040.html" class="link done">친구초대</a>
+            <span>US_A01_040.html</span>
+        </li>
+		<li>
+            <a href="html/US_A01_050.html" class="link done">이벤트</a>
+            <span>US_A01_050.html</span>
+        </li>
+		<li>
+            서비스가이드
+            <del><span>US_A01_060.html</span></del>
+			<!--ul class="sub_3depth">
+				<li>
+					<a href="html/US_A01_061.html" class="link">서비스가이드2</a>
+					<span>US_A01_061.html</span>
+				</li>
+				<li>
+					<a href="html/US_A01_062.html" class="link">서비스가이드3</a>
+					<span>US_A01_062.html</span>
+				</li>
+				<li>
+					<a href="html/US_A01_063.html" class="link">서비스가이드4</a>
+					<span>US_A01_063.html</span>
+				</li>
+				<li>
+					<a href="html/US_A01_064.html" class="link">서비스가이드5</a>
+					<span>US_A01_064.html</span>
+				</li>
+			</ul-->
+        </li>
+    </ol>
+    <hr>
+
+    <h2 class="h2_tit">02 충전소</h2>
+    <ol class="sub">
+        <li>
+            <a href="html/US_A02_010.html" class="link done">충전 목록</a>
+            <span>US_A02_010.html</span>
+        </li>
+		<li>
+            <a href="html/US_A02_020.html" class="link done">충전 정보</a>
+            <span>US_A02_020.html</span>
+        </li>
+    </ol>
+    <hr>
+
+    <h2 class="h2_tit">03 상점</h2>
+    <ol class="sub">
+        <li>
+            <a href="html/US_A03_010.html" class="link done">상점리스트</a>
+            <span>US_A03_010.html</span>
+        </li>
+		<li>
+            <a href="html/US_A03_020.html" class="link done">상품목록</a>
+            <span>US_A03_020.html</span>
+        </li>
+		<li>
+            <a href="html/US_A03_030.html" class="link done">상품상세</a>
+            <span>US_A03_030.html</span>
+			<ul class="sub_3depth">
+				<li>
+					<a href="html/US_A03_031.html" class="link done">구매확인</a>
+					<span>US_A03_031.html</span>
+				</li>
+			</ul>
+        </li>
+		<li>
+            <a href="html/US_A03_040.html" class="link done">현금환급</a>
+            <span>US_A03_040.html</span>
+			<ul class="sub_3depth">
+				<li>
+					<a href="html/US_A03_041.html" class="link done">현금환급(신청중)</a>
+					<span>US_A03_041.html</span>
+				</li>
+			</ul>
+		</li>
+		
+    </ol>
+	<hr>
+	
+	<h2 class="h2_tit">04 쿠폰함</h2>
+    <ol class="sub">
+        <li>
+            <a href="html/US_A04_010.html" class="link done">쿠폰리스트</a>
+            <span>US_A04_010.html</span>
+		</li>
+		<li>
+            <a href="html/US_A04_020.html" class="link done">쿠폰정보</a>
+            <span>US_A04_020.html</span>
+		</li>
+		<li>
+            <a href="html/US_A04_030.html" class="link done">쿠폰선물</a>
+            <span>US_A04_030.html</span>
+			<ul class="sub_3depth">
+				<li>
+					<a href="html/US_A04_031.html" class="link done">쿠폰선물(별도 웹페이지)</a>
+					<span>US_A04_031.html</span>
+				</li>
+			</ul>
+		</li>		
+    </ol>
+	<hr>
+	
+	<h2 class="h2_tit">05 더보기</h2>
+    <ol class="sub">
+        <li>
+            <a href="html/US_A05_010.html" class="link done">더보기 홈</a>
+            <span>US_A05_010.html</span>
+			<ul class="sub_3depth">
+				<li>
+					<a href="html/US_A05_011.html" class="link done">계정관리 선택</a>
+					<span>US_A05_011.html</span>
+				</li>
+				<li>
+					<a href="html/US_A05_012.html" class="link done">내 정보 변경</a>
+					<span>US_A05_012.html</span>
+				</li>
+				<li>
+					<a href="html/US_A05_013.html" class="link done">비밀번호 변경</a>
+					<span>US_A05_013.html</span>
+				</li>
+				<li>
+					<a href="html/US_A05_014.html" class="link done">비밀번호 재설정</a>
+					<span>US_A05_014.html</span>
+				</li>
+				<li>
+					<a href="html/US_A05_015.html" class="link done">회원탈퇴 신청</a>
+					<span>US_A05_015.html</span>
+				</li>
+			</ul>
+		</li>
+		<li>
+            <a href="html/US_A05_020.html" class="link done">광고 설정</a>
+            <span>US_A05_020.html</span>
+			<ul class="sub_3depth">
+				<li>
+					<a href="html/US_A05_021.html" class="link done">광고해제시간 설정</a>
+					<span>US_A05_021.html</span>
+				</li>
+				<li>
+					<a href="html/US_A05_022.html" class="link done">예외사용자 설정</a>
+					<span>US_A05_022.html</span>
+				</li>
+				<li>
+					<a href="html/US_A05_023.html" class="link done">예외사용자 설정 - 레이어팝업</a>
+					<span>US_A05_023.html</span>
+				</li>
+			</ul>
+		</li>
+		<li>
+            <a href="html/US_A05_030.html" class="link done">알림 설정</a>
+            <span>US_A05_030.html</span>
+		</li>
+		<li>
+            <a href="html/US_A05_040.html" class="link done">공지사항 목록</a>
+            <span>US_A05_040.html</span>
+			<ul class="sub_3depth">
+				<li>
+					<a href="html/US_A05_041.html" class="link done">공지사항 내용</a>
+					<span>US_A05_041.html</span>
+				</li>
+			</ul>
+		</li>
+		<li>
+            <a href="html/US_A05_050.html" class="link done">FAQ</a>
+            <span>US_A05_050.html</span>
+		</li>
+		<li>
+            <a href="html/US_A05_060.html" class="link done">문의하기</a>
+            <span>US_A05_060.html</span>
+		</li>
+		<li>
+            <a href="html/US_A05_070.html" class="link done">서비스 이용약관</a>
+            <span>US_A05_070.html</span>
+		</li>
+		<li>
+            <a href="html/US_A05_080.html" class="link done">개인정보 취급방침</a>
+            <span>US_A05_080.html</span>
+		</li>
+		<li>
+            <a href="html/US_A05_090.html" class="link done">회사소개/제휴문의</a>
+            <span>US_A05_090.html</span> <i>&lt;!-- 수정: 1117 --&gt;</i><br>
+		</li>
+		<li>
+            <a href="html/US_A05_100.html" class="link done">프로그램정보</a>
+            <span>US_A05_100.html</span>
+		</li>
+    </ol>
+	<hr>
+	
+	<h2 class="h2_tit">06 Utility</h2>
+    <ol class="sub">
+        <li>
+            로딩
+            <del><span>US_A06_010.html</span></del>
+		</li>
+		<li>
+            <a href="html/US_A06_020.html" class="link done">회원가입/로그인</a>
+            <span>US_A06_020.html</span>
+			<ul class="sub_3depth">
+				<li>
+					<a href="html/US_A06_021.html" class="link done">약관동의</a>
+					<span>US_A06_021.html</span>
+				</li>
+				<li>
+					<a href="html/US_A06_022.html" class="link done">아이디/비번 입력</a>
+					<span>US_A06_022.html</span>
+				</li>
+				<li>
+					<a href="html/US_A06_023.html" class="link done">이메일 입력</a>
+					<span>US_A06_023.html</span>
+				</li>
+				<li>
+					<a href="html/US_A06_024.html" class="link done">성별 선택</a>
+					<span>US_A06_024.html</span>
+				</li>
+				<li>
+					<a href="html/US_A06_025.html" class="link done">결혼여부 선택</a>
+					<span>US_A06_025.html</span>
+				</li>
+				<li>
+					<a href="html/US_A06_026.html" class="link done">출생년도 선택</a>
+					<span>US_A06_026.html</span>
+				</li>
+				<li>
+					<a href="html/US_A06_027.html" class="link done">주소 선택</a>
+					<span>US_A06_027.html</span>
+				</li>
+				<li>
+					<a href="html/US_A06_028.html" class="link done">추천인 입력</a>
+					<span>US_A06_028.html</span>
+				</li>
+				<li>
+					<a href="html/US_A06_029.html" class="link done">가입완료</a>
+					<span>US_A06_029.html</span>
+				</li>
+			</ul>
+		</li>
+		<li>
+            <a href="html/US_A06_030.html" class="link done">로그인</a>
+            <span>US_A06_030.html</span>
+			<ul class="sub_3depth">
+				<li>
+					<a href="html/US_A06_031.html" class="link done">아이디찾기</a>
+					<span>US_A06_031.html</span>
+				</li>
+				<li>
+					<a href="html/US_A06_032.html" class="link done">비밀번호찾기</a>
+					<span>US_A06_032.html</span>					
+				</li>
+				<li>
+					<a href="html/US_A06_033.html" class="link done">신규 비밀번호 설정(별도 웹페이지)</a>
+					<span>US_A06_033.html</span>
+				</li>
+			</ul>
+		</li>		
+    </ol>
+	<hr>
+
+	<h2 class="h2_tit"># 어드민</h2>
+    <ol class="sub">
+        <li>
+            <a href="admin/page_layout.html" class="link done">레이아웃</a>
+			<span>page_layout.html</span>
+		</li>
+		<li>
+			약관 관리
+			<ul class="sub_3depth">
+				<li>
+					<a href="admin/AD_W03_040.html" class="link done">약관 리스트</a>
+					<span>AD_W03_040.html</span>
+				</li>
+				<li>
+					<a href="admin/AD_W03_041.html" class="link done">약관 조회</a>
+					<span>AD_W03_041.html</span>
+				</li>
+				<li>
+					<a href="admin/AD_W03_042.html" class="link done">약관 등록</a>
+					<span>AD_W03_042.html</span>
+				</li>
+			</ul>
+		</li>
+		<li>
+			유틸리티
+			<ul class="sub_3depth">
+				<li>
+					<a href="admin/AD_W10_010.html" class="link done">로그인</a>
+					<span>AD_W10_010.html</span>
+				</li>
+				<li>
+					<a href="admin/AD_W10_011.html" class="link done">아이디찾기</a>
+					<span>AD_W10_011.html</span>
+				</li>
+				<li>
+					<a href="admin/AD_W10_012.html" class="link done">비밀번호변경</a>
+					<span>AD_W10_012.html</span>
+				</li>
+				<li>
+					<a href="admin/AD_W11_010.html" class="link done">비밀번호재설정</a>
+					<span>AD_W11_010.html</span>
+				</li>
+			</ul>
+		</li>
+	</ol>
+	<hr>	
+</div>
+
+<div class="issue">
+    <h2 class="h2_tit">[이슈사항]</h2>
+    <p class="txt_box">
+        이슈사항 내용
+    </p>
+</div>
+<p class="copyright">&copy;copyright 2016 CATCHAPP all rights reserved.</p>
+</body>
+</html>
