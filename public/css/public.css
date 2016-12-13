@@ -92,6 +92,7 @@ body {-webkit-text-size-adjust:none;text-size-adjust:none;letter-spacing:-1px;}
 .btn_util_wrap .util_list li:first-child {border-top:1px solid #16140f;}
 .btn_util_wrap .util_list .link {display:block;padding:20px 0;background-color:#f8c753;font-size:17px;font-weight:bold;color:#000;}
 .btn_util_wrap .util_list .link:hover {color:#000;}
+.bg_util_opacity {display:none;position:fixed;top:0;left:0;right:0;bottom:0;z-index:110;width:100%;height:100%;background-color:rgba(0,0,0,0);}
 .btn_proposal {position:absolute;top:10px;right:10px;}
 /* input*/
 input {-webkit-appearance:none;border-radius:0;line-height:1.5;}
@@ -330,7 +331,7 @@ body {font-family:'NanumGothic', '나눔고딕', 'Nanum Gothic', 'Apple SD Gothi
 .btn_gp_wrap .inner {padding:0;}
 .btn_googleplay {width:110px;height:26px;padding-top:4px;border:1px solid #000;border-radius:4px;text-align:center;line-height:32px;}
 .btn_googleplay span {*display:block;zoom:1;width:95px;height:23px;background:url(../images/btn_googleplay.png) 0 0 no-repeat;}
-.btn_util_wrap {position:absolute;top:8px;right:0;z-index:120;width:inherit;text-align:left;}
+.btn_util_wrap {position:absolute;top:8px;right:40px;z-index:120;width:inherit;text-align:left;}
 .btn_util_wrap .btn_util {display:block;width:214px;height:31px;margin-right:0;padding-left:10px;background:#fff url(../images/arr_btn_util.png) 195px 2px no-repeat;border:1px solid #ecac15;font-size:12px;font-family:'Malgun Gothic', '맑은 고딕', 'dotum', '돋움';color:#333;text-align:left;line-height:33px;text-indent:inherit;}
 .btn_util_wrap .btn_util.on {background-image:url(../images/arr_btn_util_on.png);background-position:195px 2px;}
 .btn_util_wrap .util_list {display:none;position:static;width:inherit;margin-top:2px;padding:5px 20px;background-color:#fff;border:1px solid #ecac15;}
@@ -509,6 +510,7 @@ body {font-family:'NanumGothic', '나눔고딕', 'Nanum Gothic', 'Apple SD Gothi
 /* tablet */
 
 .header>.inner {margin:0 10px;}
+.btn_util_wrap {right:10px;}
 .home .section.num1 .inner {width:95%;height:755px;margin:0 auto;background-size:90% auto;}
 .home .section.num2 .inner {width:1000px;height:900px;margin:0 auto;background-position-y:350px;background-size:98% auto;}
 .home .section.num2 .txt2 {letter-spacing:-1px;}

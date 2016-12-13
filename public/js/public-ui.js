@@ -7,22 +7,21 @@
 		
 		// btn util toggle
 		var $btn_util_toggle = $('.btn_util_wrap .btn_util'),
-			 $cont_util_toggle = $('.btn_util_wrap .util_list');
+			 $cont_util_toggle = $('.btn_util_wrap .util_list'),
+			 $bg_util_opacity = $('.bg_util_opacity');
 			
 		$btn_util_toggle.on('click', function(e) {
 			e.preventDefault();
 			$(this).toggleClass('on');
-			$cont_util_toggle.toggle();			
-		});
+			$cont_util_toggle.toggle();
+			$bg_util_opacity.toggle();			
+		});		
 		
-		/*
-		$(document).on('click', function(e) {
-			if (!$(e.target).is($btn_util_toggle,$cont_util_toggle)) {
-				$cont_util_toggle.hide();
-				$($btn_util_toggle).removeClass('on');
-			}
+		$bg_util_opacity.on('click', function(e) {
+			$cont_util_toggle.hide();
+			$($btn_util_toggle).removeClass('on');
+			$(this).toggle();
 		});
-		*/
 		
 		// btmFixed
 		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
