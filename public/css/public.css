@@ -22,10 +22,10 @@
     font-family: 'Nanum Barun GothicL';
     font-style: normal;
     font-weight: 200;
-    src: url(fonts/NanumBarunGothicWeb.eot); /* IE9 Compat Modes */
-    src: url(fonts/NanumBarunGothicWeb.eot?#iefix) format('embedded-opentype'), /* IE6-8 */
-         url(fonts/NanumBarunGothicWeb.woff) format('woff'), /* Mordern Browsers */
-         url(fonts/NanumBarunGothicWeb.ttf) format('truetype'); /* If not support woff */
+    src: url(fonts/NanumBarunGothicWebLight.eot); /* IE9 Compat Modes */
+    src: url(fonts/NanumBarunGothicWebLight.eot?#iefix) format('embedded-opentype'), /* IE6-8 */
+         url(fonts/NanumBarunGothicWebLight.woff) format('woff'), /* Mordern Browsers */
+         url(fonts/NanumBarunGothicWebLight.ttf) format('truetype'); /* If not support woff */
 }
 @font-face {
     font-family: 'Nanum SquareR';
