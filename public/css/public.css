@@ -525,5 +525,5 @@ body {font-family:'NanumGothic', '나눔고딕', 'Nanum Gothic', 'Apple SD Gothi
 .home .section.story .story_cont {overflow:hidden;margin:60px auto 0;width:1000px;height:390px;}
 .home .section.story .story_cont:after {display:block;clear:both;content:"";}
 .home .section.story .story_cont .box_wrap {width:1050px;}
-.home .section.story .story_cont .box_round {float:left;width:29%;margin-bottom:10px;margin-right:40px;height:initial;}
+.home .section.story .story_cont .box_round {float:left;width:30%;margin-bottom:10px;margin-right:27px;height:initial;}
 }
