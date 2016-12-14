@@ -5,36 +5,36 @@
     font-style: normal;
     font-weight: 500;
     src: url(fonts/NanumGothic_web.eot); /* IE9 Compat Modes */
-    src: url(fonts/NanumGothic_web.eot?#iefix) format("embedded-opentype"), /* IE6-8 */
-         url(fonts/NanumGothic_web.woff) format("woff"), /* Mordern Browsers */
-         url(fonts/NanumGothic_web.ttf) format("truetype"); /* If not support woff */
+    src: url(fonts/NanumGothic_web.eot?#iefix) format('embedded-opentype'), /* IE6-8 */
+         url(fonts/NanumGothic_web.woff) format('woff'), /* Mordern Browsers */
+         url(fonts/NanumGothic_web.ttf) format('truetype'); /* If not support woff */
 }
 @font-face {
     font-family: 'Nanum Barun Gothic';
     font-style: normal;
     font-weight: 500;
-    src: url(fonts/NanumBarunGothic_web.eot); /* IE9 Compat Modes */
-    src: url(fonts/NanumBarunGothic_web.eot?#iefix) format("embedded-opentype"), /* IE6-8 */
-         url(fonts/NanumBarunGothic_web.woff) format("woff"), /* Mordern Browsers */
-         url(fonts/NanumBarunGothic_web.ttf) format("truetype"); /* If not support woff */
+    src: url(fonts/NanumBarunGothicWeb.eot); /* IE9 Compat Modes */
+    src: url(fonts/NanumBarunGothicWeb.eot?#iefix) format('embedded-opentype'), /* IE6-8 */
+         url(fonts/NanumBarunGothicWeb.woff) format('woff'), /* Mordern Browsers */
+         url(fonts/NanumBarunGothicWeb.ttf) format('truetype'); /* If not support woff */
 }
 @font-face {
     font-family: 'Nanum Barun GothicL';
     font-style: normal;
     font-weight: 200;
     src: url(fonts/NanumBarunGothicWeb.eot); /* IE9 Compat Modes */
-    src: url(fonts/NanumBarunGothicWeb.eot?#iefix) format("embedded-opentype"), /* IE6-8 */
-         url(fonts/NanumBarunGothicWeb.woff) format("woff"), /* Mordern Browsers */
-         url(fonts/NanumBarunGothicWeb.ttf) format("truetype"); /* If not support woff */
+    src: url(fonts/NanumBarunGothicWeb.eot?#iefix) format('embedded-opentype'), /* IE6-8 */
+         url(fonts/NanumBarunGothicWeb.woff) format('woff'), /* Mordern Browsers */
+         url(fonts/NanumBarunGothicWeb.ttf) format('truetype'); /* If not support woff */
 }
 @font-face {
     font-family: 'Nanum SquareR';
     font-style: normal;
     font-weight: 500;
     src: url(fonts/NanumSquareR_web.eot); /* IE9 Compat Modes */
-    src: url(fonts/NanumSquareR_web.eot?#iefix) format("embedded-opentype"), /* IE6-8 */
-         url(fonts/NanumSquareR_web.woff) format("woff"), /* Mordern Browsers */
-         url(fonts/NanumSquareR_web.ttf) format("truetype"); /* If not support woff */
+    src: url(fonts/NanumSquareR_web.eot?#iefix) format('embedded-opentype'), /* IE6-8 */
+         url(fonts/NanumSquareR_web.woff) format('woff'), /* Mordern Browsers */
+         url(fonts/NanumSquareR_web.ttf) format('truetype'); /* If not support woff */
 }
 
 /* Reset */
@@ -422,7 +422,7 @@ body {font-family:'NanumGothic', '나눔고딕', 'Nanum Gothic', 'Apple SD Gothi
 .home .section.story .story_cont .box_round:nth-child(3),
 .home .section.story .story_cont .box_round:nth-child(4) {display:block;}
 .home .section.story .story_cont .box_round .link {display:block;padding:40px 30px;}
-.home .section.story .story_cont .box_round .h_tit {display:block;overflow:initial;text-overflow:initial;margin-top:6px;height:45px;}
+.home .section.story .story_cont .box_round .h_tit {display:block;overflow:inherit;text-overflow:inherit;margin-top:6px;height:45px;}
 .home .section.story .story_cont .box_round .txt {display:block;overflow:initial;text-overflow:initial;margin-top:20px;height:167px;}
 .home .section.story .story_cont .box_round .ico_more {margin-top:20px;}
 .home .section.num1 .visual_area,
