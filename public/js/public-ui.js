@@ -3,7 +3,7 @@
 (function(global,$){
 	'use strict';
 	
-	$(document).ready(function () {
+	$(function($) {
 		
 		// btn util toggle
 		var $btn_util_toggle = $('.btn_util_wrap .btn_util'),

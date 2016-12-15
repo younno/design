@@ -3,7 +3,7 @@
 (function(global,$){
 	'use strict';
 	
-	$(document).ready(function () {
+	$(function($) {
 
 		// btnTop
 		var $btnTop = $('.btnTop');
