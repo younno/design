@@ -94,8 +94,8 @@
 			$('.accordion_list2').children('li').first().children('a').addClass('active')
 				.next().addClass('is_open').show();
 			
-			var i, $subject_link = $('.accordion_list2 .subject_link');		
-			for (i = 0; i < $subject_link.length; i++) {				
+			var $subject_link = $('.accordion_list2 .subject_link');		
+			for (var i = 0, l=$subject_link.length; i < l ; i++) {				
 				$subject_link[i].onclick = function(e) {
 					e.preventDefault();			
 					$(this).toggleClass('active');
