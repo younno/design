@@ -464,7 +464,7 @@ body {font-family:'NanumGothic', '나눔고딕', 'Nanum Gothic', 'Apple SD Gothi
 .home .section .txt_area .txt2 {}
 /* PU_W01_020 */
 .faq_list {}
-.faq_list .top_select_wrap {padding-top:50px;}
+.faq_list .top_select_wrap {padding-top:30px;}
 .faq_list .list {margin-top:20px;text-align:center;}
 .faq_list .list .link {padding:28px 0 18px;font-size:18px;line-height:24px;}
 /* PU_W01_021 */
