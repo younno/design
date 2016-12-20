@@ -109,6 +109,10 @@ input {-webkit-appearance:none;border-radius:0;line-height:1.5;}
 .input-file .file-name {float:left;width:68%;height:35px;background:#fff;border:1px solid #b6b6b6;line-height:35px;text-indent:10px;font-size:14px;color:#333;}
 .input-file .file-label {display:block;margin-left:70%;width:30%;height:37px;font-size:14px;line-height:37px;background-color:#f8c753;color:#333;text-align:center;cursor:pointer;}
 .file-focus {outline: 1px dotted #d2310e;}
+.select_type {position:relative;width:200px;border:1px solid #999;z-index:1;}
+.select_type:before {content:'';position:absolute;top:50%;right:15px;width:0;height:0;margin-top:-1px;border-left:5px solid transparent;border-right:5px solid transparent;border-top:5px solid #313131;}
+.select_type label {position:absolute;top:1px;left:5px;padding:7px 10px;color:#333;z-index:-1;}
+.select_type select {width:100%;height:auto;line-height:normal;font-family:inherit;padding:10px 10px;border:0;opacity:0;filter:alpha(opacity=0);-webkit-appearance:none;-moz-appearance:none;appearance:none;}
 /* checkbox */
 .dft-chk {display: inline-block;}
 .dft-chk + .dft-chk {margin-left: 15px;}
@@ -241,6 +245,8 @@ input {-webkit-appearance:none;border-radius:0;line-height:1.5;}
 /* PU_W01_020 */
 .faq_list {}
 .faq_list .inner {width:100%;margin:0 auto;}
+.faq_list .top_select_wrap {padding:20px 15px 0;text-align:center;}
+.faq_list .top_select_wrap .select_type {margin:0 auto;}
 .faq_list .list {margin-top:20px;border-top:1px solid #f8c753;text-align:center;}
 .faq_list .list li {border-bottom:1px solid #f8c753;}
 .faq_list .list .link {display:block;padding:15px 10px;font-size:14px;color:#333;line-height:18px;}
@@ -458,7 +464,8 @@ body {font-family:'NanumGothic', '나눔고딕', 'Nanum Gothic', 'Apple SD Gothi
 .home .section .txt_area .txt2 {}
 /* PU_W01_020 */
 .faq_list {}
-.faq_list .list {margin-top:50px;text-align:center;border-top:0 none;}
+.faq_list .top_select_wrap {padding-top:50px;}
+.faq_list .list {margin-top:20px;text-align:center;border-top:0 none;}
 .faq_list .list .link {padding:28px 0 18px;font-size:18px;line-height:24px;}
 /* PU_W01_021 */
 .faq_view {}
