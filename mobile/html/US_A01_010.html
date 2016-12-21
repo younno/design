@@ -8,7 +8,6 @@
 <meta name="Description" content="">
 <title>main type</title>
 <link rel="stylesheet" href="../css/default.css" media="screen" />
-<script type="text/javascript" src="../js/jquery-1.11.2.min.js"></script>
 </head>
 <body>
 <!-- wrap -->
@@ -31,7 +30,7 @@
 		<div class="top_cont">
 			<h1 class="logo">CATCHAPP</h1>
 			<p class="user_id"><strong class="user">SlamdunkSlamdunk</strong></p>
-			<strong class="saved_money">9,116,520</strong>
+			<strong class="saved_money"></strong>
 			<div class="btn_wrap">
 				<a href="#" class="btn saved_list">적립<br>내역</a>
 				<i class="unn_bar"></i>
@@ -67,19 +66,46 @@
 	<a href="#" class="btnTop"><span  class="txt">top</span></a>
 </div>
 <!-- //wrap -->
+<script type="text/javascript" src="../js/jquery-1.11.2.min.js"></script>
 <script src="../js/swiper.jquery.min.js"></script>
 <script type="text/javascript" src="../js/ui-common.js"></script>
 <script>
 (function(global,$){
 	'use strict';
+	
 	var swiper = new Swiper('.swiper-container', {
 	    pagination: '.swiper-pagination',
 	    paginationClickable: true,
 	    nextButton: '.swiper-button-next',
 	    prevButton: '.swiper-button-prev'
-	});
+	});	
 })(this,this.jQuery);
 
+function numberCounter(target_frame, target_number) {
+	this.count = 0; this.diff = 0;
+	this.target_count = parseInt(target_number);
+	this.target_frame = document.querySelector(target_frame);
+	this.timer = null;
+	this.counter();
+};
+numberCounter.prototype.counter = function() {
+	var self = this;
+	this.diff = this.target_count - this.count;
+
+	if(this.diff > 0) {
+		self.count += Math.ceil(this.diff / 5);
+	}
+
+	this.target_frame.innerHTML = this.count.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+
+	if(this.count < this.target_count) {
+		this.timer = setTimeout(function() { self.counter(); }, 20);
+	} else {
+		clearTimeout(this.timer);
+	}
+};
+
+new numberCounter('.saved_money', 99999);
 </script>
 </body>
 </html>
