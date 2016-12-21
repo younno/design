@@ -137,7 +137,7 @@ form legend,table caption {display:none;}
 .select_sorting_type select {height:31px;padding:0 33px 0 10px;background:#fcfcfc url(../images/bg_select_sorting.png) right 7px bottom 50% no-repeat;background-size:17px 22px;border:0 none;border-radius:3px;box-shadow:0 1px 1px 1px rgba(0,0,0,0.2);font-size:13px;color:#7f7f7f;-webkit-appearance:none;outline:none;line-height:31px;}
 .select_sorting_type2 {position:relative;width:200px;border:1px solid #999;z-index:1;}
 .select_sorting_type2:before {content:'';position:absolute;top:50%;right:15px;width:0;height:0;margin-top:-1px;border-left:5px solid transparent;border-right:5px solid transparent;border-top:5px solid #313131;}
-.select_sorting_type2 label {position:absolute;top:1px;left:5px;padding:7px 10px;color:#333;z-index:-1;}
+.select_sorting_type2 label {position:absolute;top:1px;left:5px;padding:10px 10px;color:#333;z-index:-1;}
 .select_sorting_type2 select {width:100%;height:auto;line-height:normal;font-family:inherit;padding:10px 10px;border:0;opacity:0;filter:alpha(opacity=0);-webkit-appearance:none;-moz-appearance:none;appearance:none;}
 .raido_yellow_group {height:18px;line-height:18px;vertical-align:top;}
 .raido_yellow_group .radio_yellow_type {display:inline-block;margin-left:14px;vertical-align:top;line-height:18px;}
