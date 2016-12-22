@@ -252,7 +252,7 @@ input {-webkit-appearance:none;border-radius:0;line-height:1.5;}
 .faq_list .list .link {display:block;padding:15px 10px;font-size:14px;color:#333;line-height:18px;}
 /* PU_W01_021 */
 .faq_view>.inner {width:100%;margin:0 auto;}
-.faq_view .top_cont {background-color:#d4d4d4;}
+.faq_view .view_wrap .top_cont {text-align:left;}
 .faq_view .top_cont .tit {font-size:14px;font-weight:500;color:#333;line-height:18px;} 
 .faq_view .editor_cont {padding:20px 15px;font-size:14px;line-height:20px;}
 .faq_view .btn_wrap {}
@@ -289,7 +289,7 @@ input {-webkit-appearance:none;border-radius:0;line-height:1.5;}
 .contact_us .write_wrap .btn_contact_submit {display:block;margin:20px auto 0;width:100px;height:62px;background-color:#000;border-radius:62px;font-size:17px;font-weight:bold;color:#fff;text-align:center;line-height:62px;}
 /* PU_W01_040, PU_W01_050 */
 .view_wrap {margin:20px auto 0;}
-.view_wrap .top_cont {padding:10px 15px;font-size:14px;font-weight:bold;background-color:#d4d4d4;}
+.view_wrap .top_cont {padding:10px 15px;font-size:14px;font-weight:bold;background-color:#d4d4d4;text-align:center;}
 .view_wrap .editor_cont {padding:20px 15px;border-bottom:1px solid #f8c753;font-size:14px;color:#666;line-height:24px;}
 
 
