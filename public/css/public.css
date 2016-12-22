@@ -65,7 +65,7 @@ body {-webkit-text-size-adjust:none;text-size-adjust:none;letter-spacing:-1px;}
 .content {padding-top:50px;min-height:480px;}
 .sub .content {padding-top:50px;}
 .sub .content>.inner {width:100%;padding:0 0 40px;}
-.sub .tit_wrap {margin-top:126px;text-align:center;}
+.sub .tit_wrap {margin-top:22px;text-align:center;}
 .sub .tit_wrap .tit {font-size:30px;font-weight:600;color:#16140f;line-height:30px;}
 .footer {position:relative;width:100%;background-color:#3b3b3b;color:#d8d8d8;text-align:left;}
 .footer .inner {padding:20px 15px;}

@@ -26,8 +26,8 @@
 		// btmFixed
 		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
 			// You are in mobile browser
-			var $btnGpWrap = $('.btn_gp_wrap'),
-				$footerInner = $('.footer .inner')
+			var $btnGpWrap = $('.home .btn_gp_wrap'),
+				$footerInner = $('.home .footer .inner')
 			$(window).on('scroll', function() {
 				var winTop = $(window).scrollTop();
 				if ( winTop > 80 ) {			
