@@ -59,6 +59,7 @@ body {-webkit-text-size-adjust:none;text-size-adjust:none;letter-spacing:-1px;}
 .header {position:fixed;top:0;left:0;z-index:100;width:100%;height:50px;background-color:#f8c753;}
 .header>.inner {position:relative;height:50px;}
 .header .h_wrap {padding-top:8px;width:240px;height:37px;line-height:37px;vertical-align:top;margin-left:15px;}
+.header .h_wrap a {display:inline-block;}
 .header .logo {display:inline-block;width:119px;height:37px;background:url(../images/logo_catchapp.png) no-repeat;background-size:100% 100%;line-height:37px;vertical-align:top;}
 .header .logo span {display:block;text-indent:-9999px;}
 .header .txt {display:inline-block;margin-top:1px;padding-left:5px;width:110px;height:37px;font-size:12px;color:#16140f;white-space:nowrap;line-height:37px;vertical-align:top;}
