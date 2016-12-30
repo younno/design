@@ -300,8 +300,8 @@ button.swiper-pagination-bullet {border:none;margin:0;padding:0;box-shadow:none;
 .home_saved_list .list_type .list .row {border-bottom:1px solid #e8e8e8;}
 .home_saved_list .list_type .list .link {display:block;padding:11px 0 10px;background:url(../images/arr_list_link.png) bottom 50% right 20px no-repeat;background-size:8px 14px;}
 .home_saved_list .list_type .list .link:after {display:block;clear:both;content:"";}
-.home_saved_list .list_type .list .col_lft {float:left;width:60%;padding-left:20px;line-height:14px;}
-.home_saved_list .list_type .list .col_rgt {margin-left:60%;padding-right:43px;text-align:right;height:27px;line-height:27px;}
+.home_saved_list .list_type .list .col_lft {float:left;width:55%;padding-left:20px;line-height:14px;}
+.home_saved_list .list_type .list .col_rgt {margin-left:65%;padding-right:43px;height:27px;line-height:27px;}
 .home_saved_list .list_type .list .tit {font-size:14px;font-weight:bold;color:#16140e;line-height:14px;}
 .home_saved_list .list_type .list .txt {font-size:12px;color:#7f7f7f;line-height:12px;}
 .home_saved_list .list_type .list .cash {display:inline-block;padding-left:22px;height:16px;background:url(../images/ico_money1_yellow.png) 0 60% no-repeat;background-size:16px 16px;font-size:14px;font-weight:bold;color:#16140e;line-height:16px;}
@@ -333,7 +333,7 @@ button.swiper-pagination-bullet {border:none;margin:0;padding:0;box-shadow:none;
 .home_saved .list_type .list .row {padding:10px 20px 10px 52px;background-position:bottom 50% left 15px;background-repeat:no-repeat;background-size:22px 22px;border-bottom:1px solid #e8e8e8;}
 .home_saved .list_type .list .row:after {display:block;clear:both;content:"";}
 .home_saved .list_type .list .col_lft {float:left;width:70%;line-height:14px;word-break:break-all;}
-.home_saved .list_type .list .col_rgt {margin-left:70%;text-align:right;}
+.home_saved .list_type .list .col_rgt {margin-left:75%;}
 .home_saved .list_type .list .tit {display:inline-block;overflow:hidden;width:100%;font-size:14px;font-weight:bold;color:#16140e;text-overflow:ellipsis;white-space:nowrap;line-height:14px;}
 .home_saved .list_type .list .txt {font-size:12px;color:#7f7f7f;line-height:12px;}
 .home_saved .list_type .list .cash {display:inline-block;padding-left:22px;background:url(../images/ico_money1_yellow.png) 0 50% no-repeat;background-size:16px 16px;font-size:14px;font-weight:bold;color:#16140e;vertical-align:middle;}
@@ -367,7 +367,7 @@ button.swiper-pagination-bullet {border:none;margin:0;padding:0;box-shadow:none;
 .home_used_list .list_type .list .row {padding:10px 20px;border-bottom:1px solid #e8e8e8;}
 .home_used_list .list_type .list .row:after {display:block;clear:both;content:"";}
 .home_used_list .list_type .list .col_lft {float:left;width:70%;line-height:14px;}
-.home_used_list .list_type .list .col_rgt {margin-left:70%;text-align:right;height:27px;line-height:27px;}
+.home_used_list .list_type .list .col_rgt {margin-left:75%;height:27px;line-height:27px;}
 .home_used_list .list_type .list .tit {font-size:14px;font-weight:bold;color:#16140e;line-height:14px;}
 .home_used_list .list_type .list .txt {font-size:12px;color:#7f7f7f;line-height:12px;}
 .home_used_list .list_type .list .cash {display:inline-block;padding-left:22px;height:16px;background:url(../images/ico_money1_yellow.png) 0 60% no-repeat;background-size:16px 16px;font-size:14px;font-weight:bold;color:#16140e;line-height:16px;}
