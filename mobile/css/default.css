@@ -290,7 +290,7 @@ button.swiper-pagination-bullet {border:none;margin:0;padding:0;box-shadow:none;
 .home_saved_list .top_cont .row:after {display:block;clear:both;content:"";}
 .home_saved_list .top_cont .row .col_lft {float:left;width:105px;font-size:12px;font-weight:bold;color:#f1f1f1;}
 .home_saved_list .top_cont .row .col_rgt {margin-left:105px;text-align:right;}
-.home_saved_list .top_cont .cash {padding-left:22px;background:url(../images/ico_money2.png) 0 50% no-repeat;background-size:13px 13px;font-size:18px;color:#fd4d17;line-height:18px;}
+.home_saved_list .top_cont .cash {display:inline-block;width:75px;padding-left:22px;background:url(../images/ico_money2.png) 0 50% no-repeat;background-size:13px 13px;font-size:18px;color:#fd4d17;line-height:18px;}
 .home_saved_list .top_cont .accumulate_cash {border-bottom:1px dashed #5d5c58;padding-bottom:8px;margin-bottom:8px;}
 .home_saved_list .top_cont .accumulate_cash .cash {color:#c1c1c1;background-image:url(../images/ico_money2_gray.png);}
 .home_saved_list .list_type {}
@@ -301,10 +301,10 @@ button.swiper-pagination-bullet {border:none;margin:0;padding:0;box-shadow:none;
 .home_saved_list .list_type .list .link {display:block;padding:11px 0 10px;background:url(../images/arr_list_link.png) bottom 50% right 20px no-repeat;background-size:8px 14px;}
 .home_saved_list .list_type .list .link:after {display:block;clear:both;content:"";}
 .home_saved_list .list_type .list .col_lft {float:left;width:55%;padding-left:20px;line-height:14px;}
-.home_saved_list .list_type .list .col_rgt {margin-left:65%;padding-right:43px;height:27px;line-height:27px;}
+.home_saved_list .list_type .list .col_rgt {margin-left:65%;padding-right:43px;height:27px;line-height:27px;text-align:right;}
 .home_saved_list .list_type .list .tit {font-size:14px;font-weight:bold;color:#16140e;line-height:14px;}
 .home_saved_list .list_type .list .txt {font-size:12px;color:#7f7f7f;line-height:12px;}
-.home_saved_list .list_type .list .cash {display:inline-block;padding-left:22px;height:16px;background:url(../images/ico_money1_yellow.png) 0 60% no-repeat;background-size:16px 16px;font-size:14px;font-weight:bold;color:#16140e;line-height:16px;}
+.home_saved_list .list_type .list .cash {display:inline-block;width:60px;padding-left:22px;text-align:right;height:16px;background:url(../images/ico_money1_yellow.png) 0 60% no-repeat;background-size:16px 16px;font-size:14px;font-weight:bold;color:#16140e;line-height:16px;}
 .home_saved_list .btn_tip_toggle {position:absolute;bottom:8px;right:15px;}
 .home_saved_list .cont_tip_toggle {}
 .home_saved_list .policy_info {}
@@ -328,7 +328,7 @@ button.swiper-pagination-bullet {border:none;margin:0;padding:0;box-shadow:none;
 .home_saved .top_cont .row:after {display:block;clear:both;content:"";}
 .home_saved .top_cont .row .col_lft {float:left;width:105px;font-size:12px;font-weight:bold;color:#f1f1f1;}
 .home_saved .top_cont .row .col_rgt {margin-left:105px;text-align:right;}
-.home_saved .top_cont .cash {padding-left:22px;background:url(../images/ico_money2.png) 0 50% no-repeat;background-size:13px 13px;font-size:18px;color:#fd4d17;line-height:18px;}
+.home_saved .top_cont .cash {display:inline-block;width:75px;text-align:right;padding-left:22px;background:url(../images/ico_money2.png) 0 50% no-repeat;background-size:13px 13px;font-size:18px;color:#fd4d17;line-height:18px;}
 .home_saved .list_type .list {width:100%;background-color:#fff;}
 .home_saved .list_type .list .row {padding:10px 20px 10px 52px;background-position:bottom 50% left 15px;background-repeat:no-repeat;background-size:22px 22px;border-bottom:1px solid #e8e8e8;}
 .home_saved .list_type .list .row:after {display:block;clear:both;content:"";}
@@ -336,7 +336,7 @@ button.swiper-pagination-bullet {border:none;margin:0;padding:0;box-shadow:none;
 .home_saved .list_type .list .col_rgt {margin-left:75%;}
 .home_saved .list_type .list .tit {display:inline-block;overflow:hidden;width:100%;font-size:14px;font-weight:bold;color:#16140e;text-overflow:ellipsis;white-space:nowrap;line-height:14px;}
 .home_saved .list_type .list .txt {font-size:12px;color:#7f7f7f;line-height:12px;}
-.home_saved .list_type .list .cash {display:inline-block;padding-left:22px;background:url(../images/ico_money1_yellow.png) 0 50% no-repeat;background-size:16px 16px;font-size:14px;font-weight:bold;color:#16140e;vertical-align:middle;}
+.home_saved .list_type .list .cash {display:inline-block;width:50px;text-align:right;padding-left:22px;background:url(../images/ico_money1_yellow.png) 0 50% no-repeat;background-size:16px 16px;font-size:14px;font-weight:bold;color:#16140e;vertical-align:middle;}
 .home_saved.sound .list_type .list .row {background-image:url(../images/ico_saved_sound.png);}
 .home_saved.reaction .list_type .list .row {background-image:url(../images/ico_saved_reaction.png);}
 .home_saved.invite .list_type .list .row {background-image:url(../images/ico_saved_invite.png);}
@@ -349,7 +349,7 @@ button.swiper-pagination-bullet {border:none;margin:0;padding:0;box-shadow:none;
 .home_used_list .top_cont .row:after {display:block;clear:both;content:"";}
 .home_used_list .top_cont .row .col_lft {float:left;width:105px;font-size:12px;font-weight:bold;color:#f1f1f1;}
 .home_used_list .top_cont .row .col_rgt {margin-left:105px;text-align:right;}
-.home_used_list .top_cont .row .cash {padding-left:22px;background:url(../images/ico_money2.png) 0 50% no-repeat;background-size:13px 13px;font-size:18px;color:#fd4d17;line-height:18px;}
+.home_used_list .top_cont .row .cash {display:inline-block;width:75px;padding-left:22px;background:url(../images/ico_money2.png) 0 50% no-repeat;background-size:13px 13px;font-size:18px;color:#fd4d17;line-height:18px;}
 .home_used_list .top_cont .accumulate_cash {border-bottom:1px dashed #5d5c58;padding-bottom:8px;margin-bottom:8px;}
 .home_used_list .top_cont .accumulate_cash .cash {color:#c1c1c1;background-image:url(../images/ico_money2_gray.png);}
 .home_used_list .top_cont .box_round {margin-top:15px;padding:12px 0;background-color:#363532;border-radius:8px;-moz-box-shadow:inset 0 2px 2px 0 rgba(0,0,0,0.2);-webkit-box-shadow:inset 0 2px 2px 0 rgba(0,0,0,0.2);box-shadow:inset  0 2px 2px 0 rgba(0,0,0,0.2);font-size:12px;color:#fff;text-align:center;}
@@ -359,7 +359,7 @@ button.swiper-pagination-bullet {border:none;margin:0;padding:0;box-shadow:none;
 .home_used_list .top_cont .box_round .col_rgt {margin-left:50%;border-left:1px dotted #5d5c58;}
 .home_used_list .top_cont .box_round .tit {font-weight:bold;}
 .home_used_list .top_cont .box_round .txt {margin-top:10px;}
-.home_used_list .top_cont .box_round .cash {display:inline-block;padding-left:22px;height:16px;background:url(../images/ico_money1_gray.png) 0 60% no-repeat;background-size:16px 16px;font-weight:normal;}
+.home_used_list .top_cont .box_round .cash {display:inline-block;width:65px;text-align:right;padding-left:22px;height:16px;background:url(../images/ico_money1_gray.png) 0 60% no-repeat;background-size:16px 16px;font-weight:normal;}
 .home_used_list .list_type {}
 .home_used_list .list_type .tit_wrap {position:relative;width:100%;height:43px;font-weight:bold;background-color:#e8e8e8;}
 .home_used_list .list_type .h_tit {position:absolute;top:20px;left:15px;font-size:12px;color:#7f7f7f;}
@@ -370,7 +370,7 @@ button.swiper-pagination-bullet {border:none;margin:0;padding:0;box-shadow:none;
 .home_used_list .list_type .list .col_rgt {margin-left:75%;height:27px;line-height:27px;}
 .home_used_list .list_type .list .tit {font-size:14px;font-weight:bold;color:#16140e;line-height:14px;}
 .home_used_list .list_type .list .txt {font-size:12px;color:#7f7f7f;line-height:12px;}
-.home_used_list .list_type .list .cash {display:inline-block;padding-left:22px;height:16px;background:url(../images/ico_money1_yellow.png) 0 60% no-repeat;background-size:16px 16px;font-size:14px;font-weight:bold;color:#16140e;line-height:16px;}
+.home_used_list .list_type .list .cash {display:inline-block;width:55px;text-align:right;padding-left:22px;height:16px;background:url(../images/ico_money1_yellow.png) 0 60% no-repeat;background-size:16px 16px;font-size:14px;font-weight:bold;color:#16140e;line-height:16px;}
 
 /* US_A01_040 */
 .home_invite_friend {}
