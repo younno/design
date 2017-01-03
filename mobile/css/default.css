@@ -682,7 +682,7 @@ button.swiper-pagination-bullet {border:none;margin:0;padding:0;box-shadow:none;
 .more_ad_setting .list_type .list {background-color:#fff;}
 .more_ad_setting .list_type .list .row {width:100%;border-top:1px solid #e8e8e8;}
 .more_ad_setting .list_type .list .row:after {dispaly:block;clear:both;content:"";}
-.more_ad_setting .list_type .list .col_lft {float:left;height:14px;padding:17px 0;width:73%;font-size:14px;color:#16140e;}
+.more_ad_setting .list_type .list .col_lft {float:left;height:49px;line-height:49px;width:73%;font-size:14px;color:#16140e;}
 .more_ad_setting .list_type .list .col_lft .inner {padding-left:15px;}
 .more_ad_setting .list_type .list .col_rgt {height:24px;margin-left:73%;padding:12px 0;text-align:right;}
 .more_ad_setting .list_type .list .col_rgt .inner {padding-right:15px;}
