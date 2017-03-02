@@ -864,7 +864,7 @@ button.swiper-pagination-bullet {border:none;margin:0;padding:0;box-shadow:none;
 .utility_join_main .join_desc_box .join_recommender {margin-top:17px;}
 .utility_join_main .join_desc_box .join_recommender .txt1 {}
 .utility_join_main .join_desc_box .join_recommender .txt2 {margin-top:17px;}
-.utility_join_main .join_desc_box .cash {padding-left:19px;background:url(../images/ico_money1_yellow.png) 0 0 no-repeat;background-size:16px 16px;}
+.utility_join_main .join_desc_box .cash {display:inline-block;height:16px;line-height:16px;padding-bottom:2px;padding-left:19px;background:url(../images/ico_money1_yellow.png) 0 0 no-repeat;background-size:16px 16px;}
 .utility_join_main .join_desc_box .recommender {}
 .utility_join_main .join_desc_txt {}
 
