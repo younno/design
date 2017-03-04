@@ -390,7 +390,10 @@ button.swiper-pagination-bullet {border:none;margin:0;padding:0;box-shadow:none;
 .home_event_view {}
 .home_event_view .event_area {}
 .home_event_view .event_area .swiper-container {}
-.home_event_view .btn_wrap {z-index:10;bottom:30px;}
+/* 수정 : 0304 */
+.home_event_view .event_area .btn_wrap {position:absolute;z-index:10;bottom:40px;width:100%;}
+.home_event_view .event_area .btn_wrap .inner {padding:0 10px;}
+/* // 수정 : 0304 */
 
 /* US_A01_060 */
 .home_service_guide {}
